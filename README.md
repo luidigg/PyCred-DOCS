@@ -1,4 +1,4 @@
-# 💳 PyCredit: Previsão de Aprovação de Empréstimos com Random Forest
+# 💳 PyCredit: Previsão de Aprovação de Empréstimos
 
 Projeto aplicado de Ciência de Dados que utiliza dados públicos do Kaggle para construir um modelo de classificação capaz de prever se uma solicitação de empréstimo será **aprovada** ou **negada**, a partir do perfil do solicitante e das características do empréstimo.
 
@@ -6,10 +6,10 @@ Projeto aplicado de Ciência de Dados que utiliza dados públicos do Kaggle para
 
 | Nome | GitHub |
 |------|--------|
-| Nome do Integrante 1 | @usuario1 |
-| Nome do Integrante 2 | @usuario2 |
-| Nome do Integrante 3 | @usuario3 |
-| Nome do Integrante 4 | @usuario4 |
+| Eduardo Burgin | @EZBurgin |
+| Luidi Giacomelli | @luidigg |
+| Renan Dummel | @RenanDummel |
+| Willian Bayer | @willianbayer22 |
 
 ---
 
