@@ -270,7 +270,7 @@ A função `prever_pessoa()` recebe um dicionário com os dados do solicitante e
 
 ---
 
-## 8. Conclusões, limitações e trabalhos futuros
+## 8. Conclusões e limitações
 
 ### Conclusões
 
@@ -285,14 +285,6 @@ O Random Forest mostrou-se adequado ao problema. O modelo obteve F1 de 0,82 na c
   - A Pessoa 2 tem `loan_percent_income = 0,75`, valor acima do máximo observado na base (0,66). Nesse caso, o modelo está extrapolando para fora dos dados que conhece.
 - **Hiperparâmetros:** foram usados valores fixos, sem busca sistemática pelos melhores valores.
 
-### Trabalhos futuros
-
-- Testar `class_weight="balanced"` ou ajustar o limiar de decisão para aumentar o recall dos aprovados;
-- Otimizar os hiperparâmetros com `GridSearchCV` ou `RandomizedSearchCV`;
-- Comparar o desempenho com outros algoritmos, como Regressão Logística e Gradient Boosting;
-- Avaliar o modelo com e sem a variável `person_gender`;
-- Usar a curva ROC/AUC e a curva Precisão-Recall como métricas complementares.
-
 ---
 
 ## 9. Estrutura do repositório
@@ -301,13 +293,11 @@ O Random Forest mostrou-se adequado ao problema. O modelo obteve F1 de 0,82 na c
 ├── PyCredit.ipynb          # Notebook com todo o projeto
 ├── README.md               # Documentação do projeto
 ├── requirements.txt        # Dependências
-├── imagens/                # Gráficos gerados pelo notebook
-│   ├── matriz_confusao.png
-│   ├── importancia_variaveis.png
-│   └── arvore_0.png
-└── docs/
-    ├── relatorio_tecnico.pdf
-    └── apresentacao.pdf
+└── imagens/                # Gráficos gerados pelo notebook
+    ├── matriz_confusao.png
+    ├── importancia_variaveis.png
+    └── arvore_0.png
+
 ```
 
 > O arquivo `loan_data.csv` não está incluído no repositório. Ele deve ser baixado diretamente do Kaggle (link na seção 2).
